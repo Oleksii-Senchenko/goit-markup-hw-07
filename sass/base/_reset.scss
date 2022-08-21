@@ -1,0 +1,33 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+  /*
+  відступ у зображень знизу 4рх, через те що у зображень
+  display: inline за змовчуванням
+
+  display: block для зображення прибирає цей відступ
+  */
+img {
+    display: block;
+}
+
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+

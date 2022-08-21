@@ -1,0 +1,135 @@
+//banner section
+.banner__button {
+  background: var(--blue-color);
+  box-shadow: 0px 4px 4px #00000026;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+//modal-footer-button
+.modal-footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.06em;
+
+  color: var(--white-color);
+  background: var(--blue-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.modal-footer-button:hover {
+  background: var(--blue-color);
+}
+.modal-footer-button:focus {
+  background: var(--blue-color);
+}
+
+//modal button
+.modal-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+  &-icon {
+    fill: currentColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    :hover {
+      color: var(--blue-color);
+    }
+  }
+}
+
+//portfolio button
+.portfolio__button {
+  padding: 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--dark-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: white;
+    background: var(--blue-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+  
+  &.active {
+    color: var(--white-color);
+    background: var(--blue-color);
+  }
+}
+
+// modal button
+.bth-submit-modal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+}
+
+.bth-submit-modal:hover,
+.bth-submit-modal:focus {
+  background-color: #188ce8;
+  cursor: pointer;
+}
+
+.svg-modal-button {
+  fill: var(--white-color);
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+}
+
